@@ -127,7 +127,7 @@
           "builder": "@netlify-builder/deploy:deploy",
           "options": {
             "outputPath": "dist/portfolio-website",
-            "netlifyToken": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDspWGlNXRiKvibp+9kjeWf0T7OMxhoylkqw1YhDKuTjO9FK4xW6g2ug+AYhQ+Q9hLPhDl7z5LWWZqIk2oDkU/oNfJgVW2PXM1C+10THEujLY0XsNPlxKK8hhWFATfp8BqEmU8tsSu3XnXKAvnCWCXYTo5nq0TmtlimwfesDxbl72b81Dqgpyine+bcuWYdkb2FkP2jr+mnCLtNEO9iw1kg88Gkrq8SmcjOedFQ/mxXCz3tOoMYO2Ytoa+YSrKwv5jl/+gWatI9/KlW5dZEF8cvlF8TS5Go+c2+5gnATa/G5jsWJN/tAyyDQx70yu1lvKh5DyMM5orgFTz+zedbZ4PIf7z3ehspcTgQS5rYtL/gVGbRrdEau+UfCzD0VGwcJ7aBncSZkONTg4q+CFb1X6ZrK20MW40eyBlhgsjLAwE32Irxx7cf/SQ+l75rJIxvH5W21BEZdnaZhhxKFmTbk6DlDs0lA/v+9d5V48zKzHGW3U8/gjSKzHibafALtqYhmbwTANxpB4leOVnFIndF+yFLtZrgB4lWRQdCSrQNZ1vNax9z0APVnjUUppK2KZGiJH/AdgWk9sWYzHa3zBXEvcIIBmIDWS9lXt3TQq/52XUMupZKGlRFWz4GBsEDAzc3lQ8LVkzjYbbeUzJZVnB38kFcueoSxtsnfk1dWqJj3VTDaQ==",
+            "netlifyToken": "wBULTpKnbr9kW9IyLFFboom6Wy9CWyVUd_Jn6-rUsNo",
             "siteId": "e6be06d2-2156-4846-be0e-e4361ac02905"
           }
         }
