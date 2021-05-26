@@ -14,6 +14,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component'; 
 import { ServiceContactMeService } from './service-contact-me.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,   
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [ServiceContactMeService],
   bootstrap: [AppComponent]

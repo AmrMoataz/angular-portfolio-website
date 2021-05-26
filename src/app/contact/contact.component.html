@@ -4,11 +4,16 @@
     </div>
 
     <div class="content">
-        <div>
-            <input #nameInput placeholder="Your Name" name="name" id="name">
-            <input #emailInput placeholder="Your Email" type="email" name="email" id="email">
-            <textarea #messageInput placeholder="Your Message" name="message" id="message" cols="30" rows="5"></textarea>
-            <a (click)="sendEmail(emailInput.value, messageInput.value, nameInput.value)">Send</a>
-        </div>
+        <form [formGroup] = "contactForm" (ngSubmit) = 'sendEmail()'>
+            <input formControlName="name"  placeholder="Your Name" name="name" id="name">
+            <span *ngIf="name.invalid && name.touched">Name is required</span>
+            <input formControlName="email"  placeholder="Your Email" type="email" name="email" id="email">
+            <span *ngIf="email.invalid && email.touched">Email is required</span>
+            <textarea  formControlName="message" placeholder="Your Message" name="message" id="message" cols="30" rows="5"></textarea>
+            <span *ngIf="message.invalid && message.touched">Message is required</span>
+            <button type="submit" [disabled]='contactForm.invalid'>Send</button>
+            <span *ngIf="Error != ''">{{Error}}</span>
+            <span style="color: rgb(67, 184, 67);" *ngIf="Success != ''">{{Success}}</span>
+        </form>
     </div>
 </div>
