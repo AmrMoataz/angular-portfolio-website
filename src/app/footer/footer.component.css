@@ -1,0 +1,47 @@
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0; 
+    background-color: white;
+    color: #333333;
+    text-align: center;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+  }
+
+  .footer-item{
+    margin: 20px;
+    width: auto;
+    margin: auto;
+  }
+
+  .arrow{
+    cursor: pointer;   
+  }
+
+  .arrow:hover{
+    color: rgb(151, 149, 146); 
+  }
+
+  .brands{
+    color: #333333;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .brands:hover{
+    color: rgb(151, 149, 146); 
+  }
+
+  @media screen and (max-width: 700px){
+    .footer{
+      flex-direction: column;
+    }
+  }
+
+   

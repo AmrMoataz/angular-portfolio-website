@@ -1,0 +1,13 @@
+<div class="topnav" [class.responsive] = "navbarToggled" id="myTopnav">
+    <div href="" class="close-icon" [class.d-none] = "!navbarToggled">
+      <fa-icon [icon] = "IconfaTimesCircle" size="2x" (click)="ToggleNavBar()"></fa-icon>
+    </div>
+    <a (click)="scrollToPosition('about')">About</a>
+    <a (click)="scrollToPosition('experience')">Experience</a>
+    <a (click)="scrollToPosition('education')">Education</a>
+    <a (click)="scrollToPosition('projects')">Projects</a>
+    <a (click)="scrollToPosition('skills')">Skills</a>
+    <a (click)="scrollToPosition('contact')">Contact</a>
+    <a href="javascript:void(0);" [class.d-none] = "navbarToggled" class="icon" (click)="ToggleNavBar()">&#9776;</a>
+</div> 
+

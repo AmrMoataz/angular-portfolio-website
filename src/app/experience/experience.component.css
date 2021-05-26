@@ -1,0 +1,122 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+ 
+    padding: 70px;
+
+    background-color: #f2f2f5;
+    border-bottom: 1px solid rgb(196, 196, 196);
+
+}
+
+.header{
+    border-bottom: 1px #c5c3c3 solid;  
+    overflow-x: visible;
+    font-size: 30px; 
+    margin-bottom: 50px; 
+}
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    
+}
+
+.experience:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.timeline-item{
+    display: flex;
+    flex-direction: row;  
+    margin: 25px;
+}
+
+.date{
+    color: rgb(119, 119, 119);
+    font-style: italic;
+    margin: 25px;
+    margin-top: 0px;
+    text-decoration: underline;
+    width: 300px;
+}
+
+.timeline-item fa-icon{
+    margin: 25px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column; 
+    background-color: white;
+    border: 1px solid rgb(196, 195, 195);
+     width: 700px;
+     
+}
+
+.experience .emp-name{
+    font-size: 30px; 
+    margin: 15px;
+    margin-bottom: 3px;
+}
+
+.experience .title{
+    color: rgb(119, 119, 119);
+    font-size: 20px;
+    margin: 15px;
+    margin-top: 3px;
+}
+
+.experience .description{
+    font-size: 15px;
+    margin: 15px;
+    padding-bottom: 20px; 
+}
+
+.experience img{
+    width: 250px;
+    height: 100%;
+    max-height: 350px;
+    float: left;
+}
+
+.text p{
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.in-line{
+    display: flex !important;
+}
+
+
+@media screen and (max-width: 800px) {
+     
+
+    .in-line{
+        flex-direction: column;
+    }
+
+    .timeline-item{
+        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .experience{
+        height: auto;
+        width: auto;
+    }
+
+    .experience img{
+        width: auto;
+    }
+}

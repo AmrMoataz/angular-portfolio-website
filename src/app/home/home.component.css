@@ -1,0 +1,104 @@
+.background{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background-image: url("../../assets/images/cover.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    max-height: 1080px;
+}
+
+.background .color-background{
+    width: auto;
+    min-height: 800px;
+    max-height: 1080px;
+    background-color: #333333e5;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.content h1{
+    font-size: 70px;
+    color: white;
+    margin: 5px;
+}
+
+.content h4{
+    font-size: 35px;
+    color: rgb(170, 170, 170);
+    margin: 10px;
+}
+
+.content a{
+    width: 170px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    cursor: pointer;
+    margin: 15px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.content .cv-buttons{
+    margin-top: 70px;
+    display: flex;
+}
+
+.content a:hover{
+    background-color: white;
+    border: white;
+    color: #333333;
+
+    /* animation: changeColor 1s ;  */
+}
+
+@keyframes changeColor {
+    from{
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+    }
+    to{
+        background-color: white; 
+        color: #333333;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .content h1{
+        font-size: 40px;
+    }
+
+    .content h4{
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .content a{
+        width: 100px; 
+        font-size: 11px;
+    }
+
+    .content .cv-buttons{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+ 

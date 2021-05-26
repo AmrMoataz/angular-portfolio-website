@@ -1,0 +1,92 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+
+    background-color: white;
+    border-bottom: 1px solid rgb(196, 196, 196);
+
+    padding: 40px;
+}
+
+.header{
+    border-bottom: 1px #c5c3c3 solid;  
+    overflow-x: visible;
+    font-size: 30px; 
+    margin-bottom: 35px; 
+}
+
+.education{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+
+.education-item{
+    background-color:  #f2f2f5;
+    width: 350px;
+    /* height: 500px; */
+    border: 1px #c5c3c3 solid; 
+    margin: 25px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.education-item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.test {
+    background-color: red;
+}
+
+.education-item img{
+    margin: 0;
+    height: 200px;
+}
+
+.education-item .main{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-bottom: 1px #c5c3c3 solid;
+}
+
+.education-item .details{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px; */
+    font-size: 12px;
+}
+
+.main h3{
+    font-size: 15px; 
+    margin: 5px;
+    margin-bottom: 3px;
+}
+
+.main h5{
+    color: rgb(119, 119, 119);
+    font-size: 10px;
+    margin: 5px;
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 800px) {
+    .education{
+        flex-direction: column;
+    }
+}
+
